@@ -23,3 +23,15 @@ Context Switching
     - Time is dependent on hardware support
     - Some hardware provides multiple sets of registers per CPU (allows multiple contexts to be loaded at once)
 
+**Process Creation**
+- Parent process creates child processes, which, in turn, create other processes forming a tree of processes
+- Generally, process identified and managed via a process identifier (pid)
+
+Resource sharing options
+– Parent and children share all resources
+– Children share subset of parent’s resources
+– Parent and child share no resources
+• Execution options
+– Parent and children execute concurrently
+– Parent waits until children terminate
+
