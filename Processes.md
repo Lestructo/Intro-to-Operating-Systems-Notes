@@ -19,8 +19,8 @@ Context Switching
 - When CPU switches to another process, the system must save the state of the old process and load the saved state for the new process via a context switch.
 - Context of a process represented in the PCB
 - Context-switch time is overhead; the system does no useful work while switching
-      - The more complex the OS and the PCB, the longer the context switch
-      - Time is dependent on hardware support
-      - Some hardware provides multiple sets of registers per CPU
+    - The more complex the OS and the PCB, the longer the context switch
+    - Time is dependent on hardware support
+    - Some hardware provides multiple sets of registers per CPU
           - Allows multiple contexts to be loaded at once
 
