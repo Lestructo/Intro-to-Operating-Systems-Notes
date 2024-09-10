@@ -21,6 +21,5 @@ Context Switching
 - Context-switch time is overhead; the system does no useful work while switching
     - The more complex the OS and the PCB, the longer the context switch
     - Time is dependent on hardware support
-    - Some hardware provides multiple sets of registers per CPU
-          - Allows multiple contexts to be loaded at once
+    - Some hardware provides multiple sets of registers per CPU (allows multiple contexts to be loaded at once)
 
