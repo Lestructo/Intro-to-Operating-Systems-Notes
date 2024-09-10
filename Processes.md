@@ -37,4 +37,3 @@ Resource sharing options
 Execution options
 - Parent and children execute concurrently
 - Parent waits until children terminate
-
