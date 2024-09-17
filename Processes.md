@@ -47,8 +47,4 @@ Process Termination
 Cooperating Processes
 - Independent process cannot affect or be affected by the execution of another process
 - Cooperating process can affect or be affected by the execution of another process
-- Advantages of process cooperation
-    Information sharing
-    Computation speed-up
-    Modularity
-    Convenience
+- Advantages of process cooperation: Information sharing, Computation speed-up, Modularity, Convenience
