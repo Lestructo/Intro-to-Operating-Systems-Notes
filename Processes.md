@@ -43,3 +43,12 @@ Process Termination
 - Some operating systems do not allow child processes to exist if its parent has terminated (including Linux). If a process terminates, then all its children must also be terminated.
 - If parent is executing, but not waiting (did not invokewait()) and the child process ends, then the child process is a zombie.
 - If parent terminated without invoking wait(), the child process is an orphan.
+
+Cooperating Processes
+- Independent process cannot affect or be affected by the execution of another process
+- Cooperating process can affect or be affected by the execution of another process
+- Advantages of process cooperation
+    Information sharing
+    Computation speed-up
+    Modularity
+    Convenience
