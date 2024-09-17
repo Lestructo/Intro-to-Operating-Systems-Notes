@@ -37,3 +37,9 @@ Resource sharing options
 Execution options
 - Parent and children execute concurrently
 - Parent waits until children terminate
+
+Process Termination
+- Process executes the last statement and then asks the OS to delete it using the exit() system call.
+- Some operating systems do not allow child processes to exist if its parent has terminated (including Linux). If a process terminates, then all its children must also be terminated.
+- If parent is executing, but not waiting (did not invokewait()) and the child process ends, then the child process is a zombie.
+- If parent terminated without invoking wait(), the child process is an orphan.
