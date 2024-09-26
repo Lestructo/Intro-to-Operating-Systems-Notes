@@ -1,4 +1,4 @@
 **Quiz 3**
 - fork()
-- concept of thread, processes and stress
+- concept of thread and processes
 - pipes
