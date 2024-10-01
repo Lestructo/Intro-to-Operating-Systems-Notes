@@ -1,7 +1,9 @@
 **Preemptive and Nonpreemptive Scheduling**
+
 Nonpreemptive scheduling:
 - Once the CPU has been allocated to a process, the process keeps the CPU until it releases it either by terminating or by switching to the waiting state.
-  Preemptive scheduling:
+
+Preemptive scheduling:
 - Preemptive scheduling can result in race conditions
 when data are shared among several processes.
 - Consider the case of two processes that share data.
