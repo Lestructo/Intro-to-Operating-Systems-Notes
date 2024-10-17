@@ -9,6 +9,7 @@
 - File privileges; rwx (read, write, execute)
 ![image](https://github.com/user-attachments/assets/ad7c495e-dde9-4bbc-841e-f42eebce9835)
 
+
 - Volatile vs Non-volatile
 - Race Conditions
 - C Programming Concepts
