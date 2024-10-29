@@ -20,3 +20,6 @@
 - CPU Scheduling
 - Understand what return means; 0, 1, -1 (exit class, return to a value)
 - Round Robin - preemptive
+
+**Final**
+- 1 /= 1 if there isn't Circular Wait
