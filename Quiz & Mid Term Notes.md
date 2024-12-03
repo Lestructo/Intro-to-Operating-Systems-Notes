@@ -23,3 +23,6 @@
 
 **Final**
 - 1 /= 1 if there isn't Circular Wait
+- synchronization
+- what is "atomic"
+- deadlock
